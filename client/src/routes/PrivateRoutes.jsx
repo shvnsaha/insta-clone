@@ -11,7 +11,7 @@ const PrivateRoutes = ({children}) => {
        if(!user){
         navigate('/login')
        }
-    },[])
+    },[navigate,user])
     return (
         <>{children}</>
     );
