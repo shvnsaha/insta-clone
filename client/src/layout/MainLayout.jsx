@@ -16,7 +16,7 @@ const MainLayout = () => {
 
     useEffect(() => {
         if (user) {
-          const socketio = io('http://localhost:5000', {
+          const socketio = io('https://insta-clone-rlk0.onrender.com', {
             query: {
               userId: user?._id
             },
