@@ -2,7 +2,7 @@ import axios from "axios";
 // import { clearCookie } from "./Auth";
 
 const axiosSecure = axios.create({
-    baseURL : 'http://localhost:5000/api/v1/',
+    baseURL : 'https://insta-clone-rlk0.onrender.com/api/v1/',
     withCredentials: true 
 })
 
